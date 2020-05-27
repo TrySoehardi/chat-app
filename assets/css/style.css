@@ -1,0 +1,42 @@
+  
+
+  .status-online{
+    border-left: 15px solid greenyellow !important;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  /* .container {
+    max-width: none !important;
+    min-width: none !important;
+    width: 970px;
+ } */
+
+ .scroll {
+    
+    overflow-y: scroll;
+    height: auto;
+}
+
+#style_1::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 221, 216);
+} 
+
+#style_1::-webkit-scrollbar-thumb {
+    background-color: rgb(31, 65, 255);
+} 
+
+.message_receipt{
+    margin-left: 35%;
+    border-radius: 15%;
+    background-color: rgb(236, 236, 236);
+}
+
+.message_send{
+    margin-left: 1%;
+    border-radius: 15%;
+    background-color: rgb(160, 225, 255);
+}
+  
