@@ -66,9 +66,9 @@ class User_model extends CI_Model{
             'useTLS' => true
             );
             $pusher = new Pusher\Pusher(
-            '', //your id from pusher
-            '',
-            '',
+                '',  // your id pusher
+                '',
+                '',
             $options
             );
         
